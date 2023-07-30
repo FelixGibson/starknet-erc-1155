@@ -417,7 +417,7 @@ mod ERC1155 {
             )
           );
 
-          self._do_safe_transfer_acceptance_check(:operator, :from, :to, :id, :amount, :data);
+          // self._do_safe_transfer_acceptance_check(:operator, :from, :to, :id, :amount, :data);
         } else {
 
           // Event
@@ -427,7 +427,7 @@ mod ERC1155 {
             )
           );
 
-          self._do_safe_batch_transfer_acceptance_check(:operator, :from, :to, :ids, :amounts, :data);
+          // self._do_safe_batch_transfer_acceptance_check(:operator, :from, :to, :ids, :amounts, :data);
         }
       }
     }
